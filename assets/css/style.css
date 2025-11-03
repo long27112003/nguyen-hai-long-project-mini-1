@@ -801,3 +801,86 @@
 }
 
 /* End Careers */
+
+/* Team Members */
+.team-members {
+    background: var(--color-bg-2);
+    padding: 80px 0;
+}
+
+.team-members .inner-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.team-members .inner-box {
+    width: 320px;
+    height: auto;
+    background-color: #fff;
+    padding: 34px;
+    margin-right: 25px;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.team-members .inner-box img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.team-members .inner-box .inner-name {
+    font-size: 28px;
+    margin-bottom: 20px;
+}  
+
+.team-members .inner-box .inner-role {
+    font-size: 18px;
+    color: #777777;
+    margin-bottom: 20px;
+}
+
+.team-members .inner-social ul {
+    display: flex;
+    align-items: center;
+}
+
+.team-members .inner-social ul li {
+    margin-left: 10px;
+}
+
+.team-members .inner-social ul li a {
+    /* display: inline-block;
+    text-align: center;
+    line-height: 40px; */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    background: #fff;
+    font-size: 20px;
+    color: var(--color-text);
+}
+
+
+@media (max-width: 991.98px) {
+    .team-members .inner-wrap {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .team-members .inner-box {
+        display: block;
+        width: 100%;
+    }
+}
+
+/* End Team Members */
