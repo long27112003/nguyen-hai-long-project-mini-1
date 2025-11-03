@@ -598,4 +598,60 @@
 
 
 
-    /* End View In Action */
+/* End View In Action */
+
+
+/* Our Goal */
+.our-goal {
+    padding: 80px 0;
+}
+
+.our-goal .inner-content {
+    margin: 30px 0;
+}
+
+.our-goal .inner-content .inner-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.our-goal .inner-content .inner-desc {
+    color: var(--color-text);
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.our-goal .inner-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.our-goal .inner-box ul li {
+    font-size: 22px;
+    color: var(--color-text);
+    margin-bottom: 40px;
+}
+
+.our-goal .inner-box ul li::before {
+    content: "✓";
+    background-color: #ddd;
+    padding: 8px 12px;
+    border-radius: 50%;
+}
+
+@media (max-width: 991.98px) {
+    .our-goal .inner-box {
+        display: block;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .our-goal .inner-content {
+        text-align: center;
+    }
+
+    
+}
+
+/* End Our Goal */
